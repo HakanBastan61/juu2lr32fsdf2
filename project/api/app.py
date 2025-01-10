@@ -70,3 +70,6 @@ def list_licenses():
 @app.route("/")
 def index():
     return jsonify({"message": "Flask uygulaması çalışıyor!"})
+
+if __name__ == "__main__":
+    app.run(debug=True)
